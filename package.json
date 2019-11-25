@@ -1,0 +1,16 @@
+{
+  "name": "nta",
+  "version": "0.1.0",
+  "description": "Simple Node.js Time ago function with Multiple languges support",
+  "main": "nta.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wassimbj",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.2"
+  }
+}
