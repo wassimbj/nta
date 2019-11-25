@@ -5,7 +5,7 @@ that supports different languges and you can contribute to add yours.
 # Works with any date format
 Just give it any date format you will get the same result.
 
-## Languge availables for now are:
+## Languge available for now are:
 `ar: arabic, en: english, de: german`
 
 # Usage
