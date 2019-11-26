@@ -1,5 +1,3 @@
-# Coming soon...
-
 # What is this ?
 This is a simple lightweight **Nodejs Time Ago module**,
 that supports different languges and you can contribute to add yours.
@@ -7,7 +5,7 @@ that supports different languges and you can contribute to add yours.
 # Works with any date format
 Just give it any date format you will get the same result.
 
-## Languge available for now are:
+## Languges available for now are:
 `ar: arabic, en: english, de: german`
 
 # Usage
