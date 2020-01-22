@@ -25,7 +25,7 @@ after installing nta (Node Time ago) module with `npm i nta`
 ```
 const timeAgo = require('nta');
 
-// paramaters are, date, languge, format (full, ago)
+// parameter are, date, languge, format (full, ago)
 timeAgo(new Date, 'en', 'ago or full')
 ```
 
