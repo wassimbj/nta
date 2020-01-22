@@ -15,7 +15,7 @@ added a new "time ago format"
 timeAgo('2020-01-19T19:01:14.558Z', 'en'); // will return, 19. January
 
 // New format, "ago" format
-console.log(timeAgo('2020-01-19T19:01:14.558Z', 'en', 'ago')); // will return, 3d ago
+timeAgo('2020-01-19T19:01:14.558Z', 'en', 'ago'); // will return, 3d ago
 
 ```
 
