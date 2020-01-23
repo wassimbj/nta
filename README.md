@@ -9,7 +9,7 @@ Just give it any date format you will get the same result.
 `ar: arabic, en: english, de: german`
 
 # New !!
-added a new "time ago format"
+added a new "time ago" format
 ```
 // Default is this, "full" format
 timeAgo('2020-01-19T19:01:14.558Z', 'en'); // will return, 19. January
@@ -25,8 +25,8 @@ after installing nta (Node Time ago) module with `npm i nta`
 ```
 const timeAgo = require('nta');
 
-// parameter are, date, languge, format (full, ago)
-timeAgo(new Date, 'en', 'ago or full')
+// parameter are: date, language, format (full, ago)
+timeAgo(new Date, 'en', 'ago')
 ```
 
 ## Accessible to your views ?
