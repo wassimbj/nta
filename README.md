@@ -8,32 +8,34 @@ Just give it any date format you will get the same result.
 ## Languges available for now are:
 `ar: arabic, en: english, de: german`
 
-# New !!
-added a new "time ago" format
-```
-// Default is this, "full" format
-timeAgo('2020-01-19T19:01:14.558Z', 'en'); // will return, 19. January
+# Display formats
 
-// New format, "ago" format
-timeAgo('2020-01-19T19:01:14.558Z', 'en', 'ago'); // will return, 3d ago
+```javascript
+// Default is this
+timeAgo('2020-02-01 19:48:45', 'en'); // will return, 1. January
+
+// Ago format
+timeAgo('2020-02-01 19:48:45', 'en', 'ago'); // will return, 4w ago
 
 ```
 
 
 # Usage
 after installing nta (Node Time ago) module with `npm i nta`
-```
+
+```javascript
 const timeAgo = require('nta');
 
-// parameter are: date, language, format (full, ago)
+// parameters are: date, language, format
 timeAgo(new Date, 'en', 'ago')
 ```
 
 ## Accessible to your views ?
-```
+
+```javascript
 app.locals.timeAgo = timeAgo
 ```
-**Thats is it, the timeAgo function is now accessible to all of your views** you can use it as specified above.
+Thats is it, the timeAgo function is now accessible to all of your views you can use it as specified above.
 
 
-### Dont Forget to add your langage in the lang.js file
+***Dont Forget to contribute by adding your language***

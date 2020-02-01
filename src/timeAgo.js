@@ -80,18 +80,19 @@ function agoFormat(dateToConvert, lang){
        var week   = Math.round(diff / 604800); // 604800 = 7d * 24h * 60min * 60min
        var month  = Math.round(diff / 2629440); // months
        var year   = Math.round(diff / 31553280); // years
+
        // secondes
        if(sec <= 60){
           if(sec <= 5){
             return langs[lang].ago.now;
           }else{
-              return sec+'s ago';
+              return langs[lang].ago.sec.replace('!t', sec);
           }
        }else if(min <= 60){
            if (min == 1) 
                return langs[lang].ago.onemin;
            else
-                return langs[lang].ago.now.replace('!t', min);
+                return langs[lang].ago.min.replace('!t', min);
       }else if(hours <= 24){
             if(hours == 1)
                 return langs[lang].ago.onehour;
@@ -121,6 +122,8 @@ function agoFormat(dateToConvert, lang){
 
 };
 
+
+// Main function
 function timeAgo(date, lang, format)
 {
     if(format == 'ago')
