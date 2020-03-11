@@ -6,7 +6,7 @@ that supports different languges and you can contribute to add yours.
 Just give it any date format you will get the same result.
 
 ## Languges available for now are:
-`ar: arabic, en: english, de: german`
+`ar: arabic, en: english, de: german, vn: vietnamese`
 
 # Display formats
 
