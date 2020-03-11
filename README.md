@@ -15,7 +15,7 @@ Just give it any date format you will get the same result.
 timeAgo('2020-01-01 19:48:45', 'en'); // will return, 1. January
 
 // Ago format
-timeAgo('2020-01-01 19:48:45', 'en', 'ago'); // will return, 4w ago
+timeAgo('2020-01-01 19:48:45', 'en', 'ago'); // will return, 2mo ago
 
 ```
 
