@@ -1,6 +1,6 @@
 {
   "name": "nta",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "Simple Node.js Time ago function with Multiple languges support",
   "main": "nta.js",
   "scripts": {

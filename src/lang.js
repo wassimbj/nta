@@ -81,4 +81,30 @@ var langs = {
             yesterday: 'Gestern'
         }
     },
+
+    /* Vietnamese languge */
+    'vn': {
+        'MONTH_NAMES': [
+            "tháng Giêng", "Tháng hai", "tháng Ba", "Tháng 4", "có thể", "Tháng 6",
+            "Tháng 7", "tháng Tám", "Tháng Chín", "Tháng Mười", "Tháng 11", "Tháng 12"
+        ],
+        ago: {
+            now: 'hiện nay',
+            sec: '!t giây trước', //e.g: 2s ago
+            onemin: 'một phút trước',
+            min: '!t phút trước', //e.g: 5min ago
+            onehour: 'một giờ trước',
+            hrs: '!t giờ trước', // e.g: 2hrs ago
+            oneday: 'một ngày trước',
+            days: '!t ngày trước', // e.g: 5d ago
+            oneweek: 'một tuần trước',
+            weeks: '!t tuần trước', //e.g: 5w ago
+            onemonth: 'một tháng trước',
+            months: '!t tháng trước',
+            oneyear: 'một năm trước',
+            years: '!t năm trước',
+            today: 'Hôm nay',
+            yesterday: 'Hôm qua'
+        }
+    },
 };
