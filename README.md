@@ -5,7 +5,7 @@ that supports different languges and you can contribute to add yours.
 ## works on the browser and server
 if you want to use it on the **browser**, you must include the `nta.min.js` file into you html file
 <br/>
-if you are using **server side rendering or any js framework**, just npm install it and import it as you import any other package 
+else if you are using **server side rendering or any js framework**, just npm install it and import it as you import any other package 
 
 
 ## Languages available for now are:
