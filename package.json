@@ -7,6 +7,14 @@
     "test": "jest",
     "build": "gulp build"
   },
+  "keywords": [
+    "timeago",
+    "javascript",
+    "server",
+    "browser",
+    "client",
+    "multilingual"
+  ],
   "repository": {
     "type": "git",
     "url": " https://github.com/wassimbj/nta.git"

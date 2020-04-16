@@ -1,3 +1,6 @@
 gulpfile.js
 /src
 /node_modules
+/test
+CHANGE_LOG.md
+.gitignore
