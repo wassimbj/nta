@@ -1,46 +1,68 @@
-"use strict";
 /**
  * Time Languages
- * By the way the "!t" word is a constant it will be replaced with ago date so dont
+ * By the way the "!t" word is a constant it will be replaced with ago date so dont touch it
  */
 var langs = {
     /* Arabic languge */
-    'ar': {
+    ar: {
         'MONTH_NAMES': [
             'جانفي', 'فيفري', 'مارس', 'أفريل', 'ماي', 'جوان',
             'جويلية', 'أوت', 'سبتمبر', 'أكتوبر', 'نوفمبر', 'ديسمبر'
         ],
         ago: {
             now: 'الآن',
-            sec: 'منذ !t ثواني',
-            onemin: 'منذ دقيقة واحدة',
-            min: 'منذ !t دقيقة',
+            moments: 'منذ لحظات',
+            sec: {
+                many: 'منذ !t ثواني', // e.g: منذ 5 ثواني
+                single: 'منذ !t ثانية' // e.g: منذ 30 ثانية
+            },
+            onemin: 'منذ دقيقة',
+            min: {
+                many: 'منذ !t دقائق', // e.g: قبل 10 دقائق
+                single: 'منذ !t دقيقة' // e.g: قبل 15 دقيقة
+            },
             onehour: 'منذ ساعة',
-            hrs: 'منذ !t ساعات', // e.g: 2hrs ago
+            hrs: {
+                many: 'منذ !t ساعات', // e.g: منذ 10 ساعات
+                single: 'منذ !t ساعة' // e.g: منذ 20 ساعة
+            },
             oneday: 'منذ يوم',
-            days: 'منذ !t أيام', // e.g: 5d ago
+            days: {
+                many: 'منذ !t أيام', // e.g: 5d ago
+                single: 'منذ !t يومًا'
+            },
             oneweek: 'منذ أسبوع',
-            weeks: 'منذ !t اسابيع', //e.g: 5w ago
+            weeks: {
+                many: 'منذ !t اسابيع', //e.g: منذ 5 أسابيع
+                single: 'منذ !t أسبوع' //e.g: منذ 11 أسبوع
+            },
             onemonth: 'منذ شهر',
-            months: 'منذ !t أشهر',
+            months: {
+                many: 'منذ !t أشهر',
+                single: 'منذ !t شهرا'
+            },
             oneyear: 'منذ عام',
-            years: 'منذ !t سنوات',
+            years: {
+                many: 'منذ !t سنوات',
+                single: 'منذ !t عاما'
+            },
             today: 'اليوم',
             yesterday: 'البارحة'
         }
     },
 
     /* English languge */
-    'en': {
+    en: {
         'MONTH_NAMES': [
             "January", "February", "March", "April", "May", "June",
             "July", "August", "September", "October", "November", "December"
         ],
         ago: {
             now: 'now',
+            moments: 'moments ago',
             sec: '!ts ago', //e.g: 2s ago
-            onemin: 'one minute ago',
-            min: '!tmin ago', //e.g: 5min ago
+            onemin: 'a minute ago',
+            min: '!t min ago', //e.g: 5min ago
             onehour: 'an hour ago',
             hrs: '!thrs ago', // e.g: 2hrs ago
             oneday: 'a day ago',
@@ -57,13 +79,14 @@ var langs = {
     },
 
     /* German languge */
-    'de': {
+    de: {
         'MONTH_NAMES': [
             "Januar", "Februar", "März", "April",  "Mai", "Juni", 
             "Juli", "August", "September", "Oktober", "November", "Dezember"
         ],
         ago: {
             now: 'jetzt',
+            moments: 'Sekunden zuvor',
             sec: 'Vor !t sec',
             onemin: 'vor einer Minute',
             min: 'vor !t Minuten',
@@ -83,13 +106,14 @@ var langs = {
     },
 
     /* Vietnamese languge */
-    'vn': {
+    vn: {
         'MONTH_NAMES': [
             "tháng Giêng", "Tháng hai", "tháng Ba", "Tháng 4", "có thể", "Tháng 6",
             "Tháng 7", "tháng Tám", "Tháng Chín", "Tháng Mười", "Tháng 11", "Tháng 12"
         ],
         ago: {
             now: 'hiện nay',
+            moments: 'Khoảnh khắc trước',
             sec: '!t giây trước', //e.g: 2s ago
             onemin: 'một phút trước',
             min: '!t phút trước', //e.g: 5min ago

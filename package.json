@@ -1,10 +1,11 @@
 {
   "name": "nta",
-  "version": "1.1.6",
-  "description": "Simple Node.js Time ago function with Multiple languges support",
-  "main": "nta.js",
+  "version": "2.0.0",
+  "description": "Simple Javascript Time ago function, with Multiple languges support",
+  "main": "nta.min.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",
@@ -15,6 +16,8 @@
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
-    "gulp-uglify": "^3.0.2"
+    "gulp-inject": "^5.0.5",
+    "gulp-uglify": "^3.0.2",
+    "jest": "^25.3.0"
   }
 }
