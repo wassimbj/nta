@@ -1,5 +1,5 @@
 ## What is this ?
-This is a simple lightweight **Nodejs Time Ago module**,
+This is a simple lightweight **JS Time Ago module**,
 that supports different languges and you can contribute to add yours.
 
 ## works on the browser and server
@@ -15,10 +15,10 @@ else if you are using **server side rendering or any js framework**, just npm in
 
 ```javascript
 // ago format, this is the default format
-timeAgo('2020-01-16 19:48:45', 'en', 'ago'); // will return: 3mo ago
+timeAgo('2020-01-16 19:48:45', 'en'); // will return: 3mo ago
 
 // full format
-timeAgo('2020-01-01 19:48:45', 'en'); // will return: 1 January
+timeAgo('2020-01-01 19:48:45', 'en', 'full'); // will return: 1 January
 
 ```
 
@@ -31,11 +31,11 @@ const timeAgo = require('nta');
 
 timeAgo(new Date, 'en', 'ago')
 ```
-<br/>
-***params***
-timeAgo function accepts 3 parameter wich are the `date, language, format`.
-<br/> **the language is not required, arabic is set by default**
-<br/> **the format is not required too, "ago" is set by default**
+
+***params*** <br/>
+timeAgo function accepts 3 parameter wich are the `date, language, format`. <br/>
+**the language is not required, arabic is set by default** <br/>
+**the format is not required too, "ago" is set by default**
 
 
 ## Accessible to your views ?
