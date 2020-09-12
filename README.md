@@ -9,7 +9,8 @@ else if you are using **server side rendering or any js framework**, just npm in
 
 
 ## Languages available for now are:
-`ar: arabic, en: english, de: german, vn: vietnamese`
+`ar: arabic, en: english, de: german, vn: vietnamese`  
+**please note that the default language is arabic, if you dont specifiy it in the second argument it will display in arabic language**
 
 ## Display formats
 
@@ -21,7 +22,6 @@ timeAgo('2020-01-16 19:48:45', 'en'); // will return: 3mo ago
 timeAgo('2020-01-01 19:48:45', 'en', 'full'); // will return: 1 January
 
 ```
-
 
 ## Usage
 after installing `nta`
