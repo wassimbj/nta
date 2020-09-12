@@ -10,6 +10,7 @@ else if you are using **server side rendering or any js framework**, just npm in
 
 ## Languages available for now are:
 `ar: arabic, en: english, de: german, vn: vietnamese`  
+<br />
 **please note that the default language is arabic, if you dont specifiy it in the second argument it will display in arabic language**
 
 ## Display formats
